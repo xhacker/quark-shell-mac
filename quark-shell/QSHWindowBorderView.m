@@ -40,7 +40,7 @@
     [roundedRectanglePath appendBezierPathWithArcWithCenter: NSMakePoint(NSMinX(roundedRectangleInnerRect), NSMaxY(roundedRectangleInnerRect)) radius:roundedRectangleCornerRadius startAngle:90 endAngle:180];
     [roundedRectanglePath closePath];
 
-    [[NSColor controlColor] setFill];
+    [[NSColor whiteColor] setFill];
     [roundedRectanglePath fill];
 }
 
