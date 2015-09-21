@@ -662,7 +662,7 @@
 				GCC_PREFIX_HEADER = "quark-shell/quark-shell-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/quark-shell/quark-shell-Info.plist";
 				OTHER_CODE_SIGN_FLAGS = "--deep";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hackplan.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = im.xhacker.MenubarOvercast;
 				PRODUCT_NAME = "quark-shell";
 				WRAPPER_EXTENSION = app;
 			};
@@ -680,7 +680,7 @@
 				GCC_PREFIX_HEADER = "quark-shell/quark-shell-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/quark-shell/quark-shell-Info.plist";
 				OTHER_CODE_SIGN_FLAGS = "--deep";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hackplan.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = im.xhacker.MenubarOvercast;
 				PRODUCT_NAME = "quark-shell";
 				WRAPPER_EXTENSION = app;
 			};
@@ -745,7 +745,7 @@
 				INFOPLIST_FILE = "quark-shell-helper/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hackplan.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "im.xhacker.MenubarOvercast-helper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -764,7 +764,7 @@
 				INFOPLIST_FILE = "quark-shell-helper/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hackplan.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "im.xhacker.MenubarOvercast-helper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
